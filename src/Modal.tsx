@@ -1,5 +1,4 @@
 import { useState } from "react";
-import "./Modal.css";
 import { Modal } from "react-bootstrap";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
