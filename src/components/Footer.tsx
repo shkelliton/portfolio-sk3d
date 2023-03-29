@@ -1,6 +1,5 @@
 import { Col } from "react-bootstrap";
 import { Row } from "react-bootstrap";
-import "../App.css";
 export const Footer = () => {
   return (
     <>
