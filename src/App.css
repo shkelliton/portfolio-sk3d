@@ -1,0 +1,27 @@
+<!--General-->
+
+.container{
+  display:flex;
+  flex-wrap: nowrap;
+}
+.img{
+  width: inherit;
+}
+
+<!--Navbar-->
+
+#navBar-custom{
+  align-items: flex-end;
+  background-color: aqua;
+}
+
+<!--Footer-->
+
+#footerTemp{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  text-align: center;
+}

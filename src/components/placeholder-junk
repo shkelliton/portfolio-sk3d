@@ -1,0 +1,45 @@
+    <div className="container">
+      <div className="container text-center">
+        <Navbar fixed="top" className="navBar-Light" bg="dark" variant="dark">
+          <Container>
+            <Navbar.Brand href="#home">SK3D</Navbar.Brand>
+            <Nav className="me-auto">
+              <Nav.Link href="#about">About</Nav.Link>
+              <Nav.Link href="#gallery">Gallery</Nav.Link>
+              <Nav.Link onClick={Message}>Contact (MODAL)</Nav.Link>
+              <Nav.Link onClick={navigateToPortfolio}>Portfolio</Nav.Link>
+            </Nav>
+          </Container>
+        </Navbar>
+      </div>
+
+      <ProjectCard></ProjectCard>
+    </div>
+
+    notes and junk
+
+
+
+    -> modal props
+    -> navbar refresh
+    -> cdn
+
+    <div className="container">
+      <div className="container text-center">
+        <Navbar fixed="top" className="navBar-Light" bg="dark" variant="dark">
+          <Container>
+            <Navbar.Brand href="#home">SK3D</Navbar.Brand>
+            <Nav className="me-auto">
+              <Nav.Link href="#about">About</Nav.Link>
+              <Nav.Link href="#gallery">Gallery</Nav.Link>
+              <Nav.Link onClick={Message}>Contact (MODAL)</Nav.Link>
+              <Nav.Link onClick={Message}>Portfolio</Nav.Link>
+            </Nav>
+          </Container>
+        </Navbar>
+      </div>
+      <HomePage />
+    
+      <Example></Example>
+    </div>;
+    
