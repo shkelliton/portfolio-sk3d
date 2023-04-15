@@ -13,7 +13,7 @@ export const AboutMe = () => {
           </h3>
         </Col>
         <Col xs>
-          <img src="src/assets/r3_avatar.png" />
+          <img src="https://raw.githubusercontent.com/shkelliton/portfolio-sk3d/main/src/assets/r3_avatar.png"/>
         </Col>
       </Row>
   );

@@ -1,0 +1,19 @@
+potentially put all images and junk in here with names so I can just call them
+format
+//gallery
+
+
+
+//projects
+project1[] array junk
+
+  heading,
+  date,
+  splashImg,
+  images,
+  imagesDescrip,
+  cardSplash,
+  cardTitle,
+  projDescrip,
+  position,
+  infoExtra,
