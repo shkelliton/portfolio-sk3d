@@ -18,7 +18,7 @@ const images = [
 export const GalleryHome = () => {
   return (
     <div>
-      <p>aaaaaaaaaaaaaaaaaa</p>
+      <ImageGallery items={images}/>
     </div>
   );
 };
