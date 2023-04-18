@@ -4,9 +4,8 @@ import "../App.css";
 
 export const Footer = () => {
   return (
-    <div id="footerTemp">
-          <p>Shannon Kelly &copy; 2023</p>
-          <p>Contact maybe here?</p>
-    </div>
+    <footer className="footer">         
+    <p>Shannon Kelly &copy; 2023</p>
+    </footer>
   );
 };

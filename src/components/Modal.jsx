@@ -5,6 +5,7 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Container from "react-bootstrap/Container";
 import Button from "react-bootstrap/Button";
+import Image from "react-bootstrap/Image"
 
 const props = {
   heading: "",
@@ -43,7 +44,7 @@ function Example({
           <Container>
             <Row>
               <Col>
-                <img src={splashImg} />
+                <Image fluid="true" src={splashImg} />
               </Col>
               <Col>
                 <h2>{position}</h2>
@@ -56,25 +57,21 @@ function Example({
             <p>-------- padding here when styling -------</p>
             <Row>
               <Col sm>
-                <h1>Block 1 (Image)</h1>
-                <img src={images[0]} />
+                <Image fluid="true" src={images[0]} />
                 <h3>{imagesDescrip[0]}</h3>
               </Col>
               <Col sm>
-                <h1>Block2</h1>
-                <img src={images[1]} />
+                <Image fluid="true" src={images[1]} />
                 <h3>{imagesDescrip[1]}</h3>
               </Col>
             </Row>
             <Row>
               <Col sm>
-                <h1>Block 1 (Image)</h1>
-                <img src={images[2]} />
+                <Image fluid="true" src={images[2]} />
                 <h3>{imagesDescrip[2]}</h3>
               </Col>
               <Col sm>
-                <h1>Block2</h1>
-                <img src={images[2]} />
+                <Image fluid="true" src={images[2]} />
                 <h3>{imagesDescrip[2]}</h3>
               </Col>
             </Row>

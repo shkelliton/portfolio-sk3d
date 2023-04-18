@@ -8,8 +8,10 @@ function HomePage() {
   return (
     <>
         <AboutMe />
+        <br/>
+        <br/>
+        <br/>
         <Skills />
-        <GalleryHome/>
     </>
   );
 }
