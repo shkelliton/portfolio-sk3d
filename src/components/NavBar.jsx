@@ -4,7 +4,7 @@ import "../App.css";
 
 function Navbar() {
   return (
-    <nav id="navBar-custom">
+    <nav>
       <ul className="nav justify-content-center">
         <li className="nav-item">
           <Link className="nav-link" to="/">

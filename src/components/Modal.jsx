@@ -36,14 +36,14 @@ function Example({
     <>
       <Button onClick={handleShow}>See More</Button>
 
-      <Modal size="xl" show={show} onHide={handleClose}>
+      <Modal fullscreen="true" size = "xl" show={show} onHide={handleClose}>
         <Modal.Header closeButton>
           <h1>{heading}</h1>
         </Modal.Header>
         <Modal.Body>
           <Container>
             <Row>
-              <Col>
+              <Col xs={12} md={8}>
                 <Image fluid="true" src={splashImg} />
               </Col>
               <Col>
@@ -54,7 +54,7 @@ function Example({
               </Col>
             </Row>
             <br />
-            <p>-------- padding here when styling -------</p>
+            <br />
             <Row>
               <Col sm>
                 <Image fluid="true" src={images[0]} />
