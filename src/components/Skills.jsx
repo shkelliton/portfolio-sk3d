@@ -7,22 +7,27 @@ export const Skills = () => {
     <>
     <Container fluid ="true" className="bg-primary">
       <br/>
+      <h1 className="navbar justify-content-center">Skills</h1>
       <Row>
         <Col/>
         <Col>
-          <Image fluid="true" src="https://upload.wikimedia.org/wikipedia/commons/e/e2/Adobe_Substance_3D_icon.svg"></Image>
-          <h4 className="justify-content-center">Substance Painter and Designer</h4>
+          
+          <h4 className="navbar justify-content-center">Substance Painter and Designer</h4>
         </Col>
         <Col>
-          <Image fluid = "true" src="https://cdn.worldvectorlogo.com/logos/blender-1.svg"></Image>
-          <h4 className="justify-content-center">Blender 3D</h4>
+          
+          <h4 className="navbar justify-content-center">Blender 3D</h4>
         </Col>
         <Col >
-          <Image fluid = "true" src="https://ww1.freelogovectors.net/wp-content/uploads/2018/05/autodesk-maya_logo.png?lossy=1&w=2560&ssl=1"></Image>
-          <h4 className="justify-content-center">Maya</h4>
+          
+          <h4 className="navbar justify-content-center">Maya</h4>
         </Col>
         <Col/>
       </Row>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
       <br/>
       </Container>
     </>
