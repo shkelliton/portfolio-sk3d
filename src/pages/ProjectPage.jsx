@@ -2,6 +2,7 @@ import { Row } from "react-bootstrap";
 import { ProjectCard } from "../components/ProjectCard";
 import "../App.css";
 import { Col } from "react-bootstrap";
+import { Container } from "react-bootstrap";
 //PROJECTS - DATA
 //
 //project 1 -- H.O.M.E.
@@ -25,7 +26,7 @@ let p2_ImagesDescrip = ["Hills and mountains", "water", "Banana"];
 let p2_Descrip =
   "this is a description of HOME, a virtual reality project exploring stuff";
 //project3
-let p3_Splash = "";
+let p3_Splash = "https://raw.githubusercontent.com/shkelliton/portfolio-sk3d/main/src/assets/projects/project3/03_splash.png";
 let p3_Images = [
   "https://picsum.photos/id/1018/1000/600/",
   "https://picsum.photos/id/1015/1000/600/",
@@ -39,20 +40,20 @@ let p4_Splash = "https://raw.githubusercontent.com/shkelliton/portfolio-sk3d/mai
 
 function ProjectPage() {
   return (
-    <>
+    <><Container>
         <Row>
-          <h1>Projects</h1>  
+          <h1 className="text-dark">Projects</h1>  
         </Row>
         <Row>
           <Col>
             <ProjectCard
-              heading="H.O.M.E."
+              heading="HOME"
               splashImg={p1_Splash}
               date="2022-2023"
               images={p1_Images}
               imagesDescrip={p1_ImagesDescrip}
               cardSplash={p1_Splash}
-              cardTitle="H.O.M.E."
+              cardTitle="HOME"
               projDescrip={p1_Descrip}
               position="Art Lead"
               infoExtra=""
@@ -66,7 +67,7 @@ function ProjectPage() {
               images={p1_Images}
               imagesDescrip={p2_ImagesDescrip}
               cardSplash={p2_Splash}
-              cardTitle="Harley"
+              cardTitle="Harley Quinn"
               projDescrip=""
               position=""
               infoExtra=""
@@ -74,13 +75,13 @@ function ProjectPage() {
           </Col>
           <Col>
             <ProjectCard
-              heading=""
-              splashImg=""
+              heading="Recreation of Black Owned Saloon"
+              splashImg={p3_Splash}
               date=""
               images={p1_Images}
               imagesDescrip={p2_ImagesDescrip}
-              cardSplash=""
-              cardTitle="Empty"
+              cardSplash={p3_Splash}
+              cardTitle="Saloon"
               projDescrip=""
               position=""
               infoExtra=""
@@ -102,7 +103,7 @@ function ProjectPage() {
             ></ProjectCard>
           </Col>
         </Row>
-
+        </Container>
       </>
     
   );

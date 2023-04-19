@@ -10,7 +10,7 @@ import ProjectPage from "./pages/ProjectPage";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter className="general">
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<HomePage />} />

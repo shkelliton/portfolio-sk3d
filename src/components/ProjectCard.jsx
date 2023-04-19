@@ -31,7 +31,7 @@ export const ProjectCard = ({
       <Card style={{ width: "auto" }}>
         <Card.Img variant="top" src={cardSplash} />
         <Card.ImgOverlay>
-          <Card.Title>{cardTitle}</Card.Title>
+          <Card.Title className="text-light">{cardTitle}</Card.Title>
           <Card.Text></Card.Text>
           <Example
             heading={heading}
