@@ -6,6 +6,7 @@ import { Container } from "react-bootstrap";
 //PROJECTS - DATA
 //
 //project 1 -- H.O.M.E.
+let p1_thumbnail = "";
 let p1_Splash = "https://raw.githubusercontent.com/shkelliton/portfolio-sk3d/main/src/assets/projects/project1/01_splash.png";
 let p1_Images = [
   "https://raw.githubusercontent.com/shkelliton/portfolio-sk3d/main/src/assets/projects/project1/img_00.png",
@@ -17,6 +18,7 @@ let p1_Descrip =
   "HOME is a VR experience built as an educational tool to garner empathy towards chosen mental illnesses. I worked as the art team lead for this project, emphasizing usability and consistency of quality. Additionally, I helped teach and guide my team with learning Blender3D.";
 
   //project 2
+  let p2_thumbnail = "https://raw.githubusercontent.com/shkelliton/portfolio-sk3d/main/src/assets/projects/project2/02_Thumbnail.png";
   let p2_Splash = "https://raw.githubusercontent.com/shkelliton/portfolio-sk3d/main/src/assets/projects/project2/02_splash.png";
   let p2_Images = [
     "https://raw.githubusercontent.com/shkelliton/portfolio-sk3d/main/src/assets/projects/project2/img_00.png",
@@ -30,7 +32,7 @@ let p1_Descrip =
   let p2_Descrip =
     "Rendition of Harley Quinn based on Batman: The Animated Series";
 //project3
-//project3
+let p3_thumbnail = "";
 let p3_Splash = "https://raw.githubusercontent.com/shkelliton/portfolio-sk3d/main/src/assets/projects/project3/03_splash.png";
 let p3_Images = [
   "https://raw.githubusercontent.com/shkelliton/portfolio-sk3d/main/src/assets/projects/project3/img_00.png",
@@ -45,7 +47,7 @@ let p3_Descrip=
   "A directed project recreating a black owned saloon from the 1870's with a focus on historical accuracy. I worked with the creative director, doing research and making adjustments based on feedback. I used Blender3D, Substance Painter and Substance Designer.";
 
   //project 4
-
+let p4_thumbnail = "https://raw.githubusercontent.com/shkelliton/portfolio-sk3d/main/src/assets/projects/project4/03_Thumbnail.png";
 let p4_Splash = "https://raw.githubusercontent.com/shkelliton/portfolio-sk3d/main/src/assets/projects/project4/04_splash.png";
 let p4_Images = [
   "https://raw.githubusercontent.com/shkelliton/portfolio-sk3d/main/src/assets/projects/project4/img_00.png",
@@ -87,7 +89,7 @@ function ProjectPage() {
               date="2023"
               images={p2_Images}
               imagesDescrip={p2_ImagesDescrip}
-              cardSplash={p2_Splash}
+              cardSplash={p2_thumbnail}
               cardTitle="Harley Quinn"
               projDescrip={p2_Descrip}
               position="Model/Texture/Rig"
@@ -116,7 +118,7 @@ function ProjectPage() {
               date="2023"
               images={p4_Images}
               imagesDescrip={p4_ImagesDescrip}
-              cardSplash={p4_Splash}
+              cardSplash={p4_thumbnail}
               cardTitle="Mech-Dragon"
               projDescrip={p4_Descrip}
               position="Model/Texture"
