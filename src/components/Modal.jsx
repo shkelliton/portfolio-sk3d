@@ -58,21 +58,51 @@ function Example({
             <Row>
               <Col sm>
                 <Image fluid="true" src={images[0]} />
-                <h3>{imagesDescrip[0]}</h3>
+                <p>{imagesDescrip[0]}</p>
               </Col>
               <Col sm>
                 <Image fluid="true" src={images[1]} />
-                <h3>{imagesDescrip[1]}</h3>
+                <p>{imagesDescrip[1]}</p>
               </Col>
             </Row>
             <Row>
               <Col sm>
                 <Image fluid="true" src={images[2]} />
-                <h3>{imagesDescrip[2]}</h3>
+                <p>{imagesDescrip[2]}</p>
               </Col>
               <Col sm>
-                <Image fluid="true" src={images[2]} />
-                <h3>{imagesDescrip[2]}</h3>
+                <Image fluid="true" src={images[3]} />
+                <p>{imagesDescrip[3]}</p>
+              </Col>
+            </Row>
+            <Row>
+              <Col sm>
+                <Image fluid="true" src={images[4]} />
+                <p>{imagesDescrip[4]}</p>
+              </Col>
+              <Col sm>
+                <Image fluid="true" src={images[5]} />
+                <p>{imagesDescrip[5]}</p>
+              </Col>
+            </Row>
+            <Row>
+              <Col sm>
+                <Image fluid="true" src={images[6]} />
+                <p>{imagesDescrip[6]}</p>
+              </Col>
+              <Col sm>
+                <Image fluid="true" src={images[7]} />
+                <p>{imagesDescrip[7]}</p>
+              </Col>
+            </Row>
+            <Row>
+              <Col sm>
+                <Image fluid="true" src={images[8]} />
+                <p>{imagesDescrip[8]}</p>
+              </Col>
+              <Col sm>
+                <Image fluid="true" src={images[9]} />
+                <p>{imagesDescrip[9]}</p>
               </Col>
             </Row>
           </Container>

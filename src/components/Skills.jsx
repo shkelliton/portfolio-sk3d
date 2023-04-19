@@ -6,6 +6,7 @@ export const Skills = () => {
   return (
     <>
     <Container fluid ="true" className="bg-primary">
+      <br/>
       <Row>
         <Col/>
         <Col>
@@ -17,11 +18,12 @@ export const Skills = () => {
           <h4 className="justify-content-center">Blender 3D</h4>
         </Col>
         <Col >
-          <Image className="justify-content-center" fluid = "true" src="https://ww1.freelogovectors.net/wp-content/uploads/2018/05/autodesk-maya_logo.png?lossy=1&w=2560&ssl=1"></Image>
+          <Image fluid = "true" src="https://ww1.freelogovectors.net/wp-content/uploads/2018/05/autodesk-maya_logo.png?lossy=1&w=2560&ssl=1"></Image>
           <h4 className="justify-content-center">Maya</h4>
         </Col>
         <Col/>
       </Row>
+      <br/>
       </Container>
     </>
   );
