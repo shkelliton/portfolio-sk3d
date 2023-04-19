@@ -10,6 +10,9 @@ const Layout = () => {
     <div className="bg-gradient-dark">
     <Navbar />
     <br />
+    <br />
+    <br />
+    <br />
     <Container fluid="true">
       <Outlet />
     </Container>
