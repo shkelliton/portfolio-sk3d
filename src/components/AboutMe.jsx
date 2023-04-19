@@ -21,7 +21,7 @@ export const AboutMe = () => {
           </div>
         </Col>
         <Col xs={12} md={8}>
-          <Image fluid ="true" rounded = "true" src="https://raw.githubusercontent.com/shkelliton/portfolio-sk3d/main/src/assets/r3_avatar.png"/>
+          <Image fluid ="true" rounded = "true" src="https://raw.githubusercontent.com/shkelliton/portfolio-sk3d/main/src/assets/avatar_transparent.png"/>
         </Col>
       </Row>
       <br/>
