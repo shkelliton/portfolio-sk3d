@@ -47,7 +47,7 @@ let p3_Descrip=
   "A directed project recreating a black owned saloon from the 1870's with a focus on historical accuracy. I worked with the creative director, doing research and making adjustments based on feedback. I used Blender3D, Substance Painter and Substance Designer.";
 
   //project 4
-let p4_thumbnail = "https://raw.githubusercontent.com/shkelliton/portfolio-sk3d/main/src/assets/projects/project4/03_Thumbnail.png";
+let p4_thumbnail = "https://raw.githubusercontent.com/shkelliton/portfolio-sk3d/main/src/assets/projects/project4/04_Thumbnail.png";
 let p4_Splash = "https://raw.githubusercontent.com/shkelliton/portfolio-sk3d/main/src/assets/projects/project4/04_splash.png";
 let p4_Images = [
   "https://raw.githubusercontent.com/shkelliton/portfolio-sk3d/main/src/assets/projects/project4/img_00.png",
