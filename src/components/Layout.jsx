@@ -7,14 +7,14 @@ import "../App.css";
 
 const Layout = () => {
   return (
-    <>
+    <div className="bg-gradient-dark">
     <Navbar />
     <br />
     <Container fluid="true">
       <Outlet />
     </Container>
     <Footer />
-    </>
+    </div>
   );
 };
 

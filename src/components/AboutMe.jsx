@@ -5,7 +5,7 @@ import Image from 'react-bootstrap/Image'
 import "../App.css";
 export const AboutMe = () => {
   return (
-    <Container>
+    <Container className="bg-light">
       <br/>
       <Row >
         <Col >
