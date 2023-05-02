@@ -15,7 +15,7 @@ function Navbar() {
           <h1>SK3D</h1>
         </li>
         <li className="nav-item">
-          <Link className="nav-link text-dark" to="../ProjectPage">
+          <Link className="nav-link text-dark" to="../#ProjectPage">
             Projects
           </Link>
         </li>
